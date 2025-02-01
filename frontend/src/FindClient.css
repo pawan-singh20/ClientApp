@@ -1,0 +1,79 @@
+
+.find-client-page {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.find-client-page .find-client-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.find-client-page .client-details {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #34495e;
+}
+
+.find-client-page .client-details p {
+  margin-bottom: 15px;
+}
+
+.find-client-page .client-details strong {
+  font-weight: bold;
+  color: #3498db;
+}
+
+.find-client-page .error {
+  color: #e74c3c;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.find-client-page .loading {
+  color: #3498db;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.find-client-page button {
+  padding: 12px 25px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+}
+
+.find-client-page button:hover {
+  background-color: #2980b9;
+}
+
+.find-client-page button:focus {
+  outline: none;
+}
+
+.find-client-page .input-client-id {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
